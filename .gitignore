@@ -8,6 +8,7 @@ front/coverage
 
 # production
 front/build
+front/src/style.min.css
 
 # misc
 .DS_Store
