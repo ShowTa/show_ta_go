@@ -13,7 +13,7 @@ gulp.task('default', ['sass', 'watch'])
 
 //sassの監視をして変換処理させる
 gulp.task('watch', () => {
-  gulp.watch(['./scss/**/*.scss'], () => {
+  gulp.watch(['./scss/**'], () => {
     gulp.start(['sass'])
   })
 })
