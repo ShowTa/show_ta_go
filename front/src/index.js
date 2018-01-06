@@ -8,13 +8,14 @@ import Header from './layout/header'
 import Footer from './layout/footer'
 
 import Top from './top/top'
+import Editor from './article/editor'
 
 const Routing = () => {
   return(
     <div>
       <Route exact path='/' component={Top} />
-      <Route path='/article' component={Top} />
-      <Route path='/user' component={Top} />
+      <Route path='/article' component={Editor} />
+      <Route path='/my_page' component={Top} />
     </div>
   )
 }
@@ -25,10 +26,9 @@ const App = () => {
       <div>
         <Header />
         <div className='contents'>
-          <Top />
+          <Routing />
         </div>
         <Footer />
-        <Routing />
       </div>
     </BrowserRouter>
   )
