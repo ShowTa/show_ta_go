@@ -1,0 +1,15 @@
+.top {
+  display: flex;
+  padding: 20px;
+
+  .article-index {
+    width: 100vw
+  }
+
+  .ranking-index {
+    width: 100%;
+    margin-left: 30px;
+    padding: 5px 10px;
+    background-color: #FAFAFA;
+  }
+}
