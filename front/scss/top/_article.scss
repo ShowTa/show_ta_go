@@ -1,0 +1,18 @@
+.article {
+  display: flex;
+  padding-bottom: 20px;
+
+  &__pic {
+    width: 40px;
+    height: 40px;
+    float: right;
+    padding: 5px 10px;
+  }
+
+  &__info {
+    width: calc(50vw - 70px);
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+}
