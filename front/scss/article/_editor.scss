@@ -1,0 +1,16 @@
+.markdown-editor {
+  display: flex;
+  width: calc(40vw + 40vw);
+  text-align: center;
+  margin: 0 auto;
+
+  .editor {
+    border: 1px solid #000;
+  }
+
+  .preview {
+    border: 1px solid #000;
+    width: 40vw;
+    height: calc(100vh - (54px + 150px + 40px));
+  }
+}
