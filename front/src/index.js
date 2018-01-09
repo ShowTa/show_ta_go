@@ -9,13 +9,14 @@ import Footer from './layout/footer'
 
 import Top from './top/top'
 import Editor from './article/editor'
+import MyPage from './user/myPage'
 
 const Routing = () => {
   return(
     <div>
       <Route exact path='/' component={Top} />
       <Route path='/article' component={Editor} />
-      <Route path='/my_page' component={Top} />
+      <Route path='/my_page' component={MyPage} />
     </div>
   )
 }
