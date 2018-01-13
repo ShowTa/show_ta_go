@@ -1,0 +1,23 @@
+.user {
+  margin: 10px 20px;
+
+  &__info {
+    display: flex;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+
+    &__left {
+      &__img {
+        width: 300px;
+        height: 300px;
+        border: 3px solid #000;
+        border-radius: 10px;
+      }
+    }
+
+    &__right {
+      padding: 5px 10px;
+    }
+  }
+}
